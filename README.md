@@ -9,3 +9,4 @@ Summary: use Lambda functions and CloudWatch together to automate the start & st
 4. Configure two CloudWatch events with target as the Lambda functions that were just created, and run it at your desired time.
   - CloudWatch > Events > Create event rule > Select when to start > Save as ec2-start
   - CloudWatch > Events > Create event rule > Select when to stop > Save as ec2-stop
+5. Verify results and output by checking CloudWatch Logs 
