@@ -1,6 +1,6 @@
 ### Lambda function automation to start & stop ec2 instances
 
-Summary: use Lambda functions and CloudWatch together to automate the start & stop of ec2 instances at your desired time. Powering off servers when not needed will save hundreds of dollars.
+Summary: use Lambda functions and CloudWatch together to automate the start & stop of ec2 instances at your desired time. Powering off servers during non-work hours will save hundreds of dollars.
 
 1. Give Lambda a role to perform actions on ec2 instances and send logs to CloudWatch.
 2. Create a Lambda function: ec2-start and paste the code
