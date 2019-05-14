@@ -1,4 +1,4 @@
-#Lambda function to start/stop ec2 instances.
+### Lambda function to start/stop ec2 instances
 
 Summary: use Lambda functions and CloudWatch together to start & stop ec2 instances at your desired time. This will save hundreds of dollars.
 
